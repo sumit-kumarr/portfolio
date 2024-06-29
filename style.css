@@ -315,9 +315,7 @@ a:hover::after{
     scale: 0;
     animation-delay: 2s;
 }
-.home:hover img{
-    box-shadow: 5px 5px 4px rgb(219, 192, 192);
-}
+
 @keyframes Scale{
     0%{
         scale: 0;
@@ -689,7 +687,7 @@ footer p{
     color: #cf1ab7;
     font-size: 19px;
     font-family: cursive;
-    margin-left: 200px;
+    margin-left: 20px;
     font-weight: bold;
 }
 footer i{
