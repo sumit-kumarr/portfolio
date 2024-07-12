@@ -694,13 +694,7 @@ footer p{
     color: #cf1ab7;
     font-size: 19px;
     font-family: cursive;
-    margin-left: 200px;
     font-weight: bold;
-}
-footer i{
-    font-size: 60px;
-    color: aqua;
-    margin-bottom: 8px;
 }
 
 /* RESPONSIVE */
