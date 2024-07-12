@@ -9,6 +9,10 @@
     border: none; 
     color: #fff;
 }
+body{
+    background: #0f0a0a;
+    color: white;
+}
 
 #myVideo {
     position: fixed;
@@ -86,7 +90,7 @@ html{
     }
 }
 .navbar a:hover,.navbar a.active{
-    color: #ff00ee;
+    color: white;
 }
 section{
     padding: 10rem 9% 2rem;
@@ -122,8 +126,8 @@ section{
     font-size: 3.2rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px #ff00ee;
-    background: linear-gradient(#ff00ee,#ff00ee);
+    -webkit-text-stroke: .7px #f6f2f6;
+    background: linear-gradient(#131313,#0a0a0a);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -33rem 0;
@@ -148,7 +152,7 @@ section{
     top: 0;
     height: 100%;
     width: 0;
-    border-right: 2px solid #ff00ee;
+    border-right: 2px solid #0f0e0e;
     transform: translateY(-100px);
     opacity: 0;
     animation: CursorSlide 6s linear infinite,
@@ -306,16 +310,18 @@ a:hover::after{
 }
 .home img{
     width: 800px;
-    height:650px;
-    background: rgba(255,255,255,.1);
-    border: .2rem solid rgba(255,255,255,.3);
+    height: 650px;
+    background: rgba(14, 14, 14, 0.941);
+    /* border: .2rem solid rgba(255,255,255,.3); */
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #ff00ee);
+    filter: drop-shadow(0 0 8rem #0d000c);
     animation: Scale 1s ease forwards;
     scale: 0;
     animation-delay: 2s;
 }
-
+.home:hover img{
+    box-shadow: 5px 5px 4px rgb(16, 14, 14);
+}
 @keyframes Scale{
     0%{
         scale: 0;
@@ -355,15 +361,15 @@ section.start-animation .title{
     }
 }
 .title span{
-    color: #ff00ee;
+    color: #0b0b0b;
 }
 .about img{
     height: 25rem;
     width: 25rem;
-    background: rgba(255,255,255,.1);
-    border: .2rem solid rgba(255,255,255,.3);
+    background: rgba(158, 240, 161, 0.1);
+    /* border: .2rem solid rgba(255,255,255,.3); */
     border-radius: 50%;
-    filter: drop-shadow(0 0 8rem #ff00ee);
+    filter: drop-shadow(0 0 8rem #0a0a0a);
     scale: 0;
 }
 section.start-animation .aboutImg{
@@ -474,14 +480,14 @@ section.start-animation .column h2{
 }
 
 .box{
-    border-left: .2rem solid #ff00ee;
+    border-left: .2rem solid #ded5d5;
 }
 .education-content {
     padding-left: 1.9rem;
 }
 .education-content .content{
     padding: 1.5rem;
-    border: .2rem solid #ff00ee;
+    border: .2rem solid #131213;
     background: rgba(255,255,255,.1);
     border-radius: .5rem;
     margin-bottom: 2rem;
@@ -495,14 +501,14 @@ section.start-animation .column h2{
     height: 1.4rem;
     width: 1.4rem;
     border-radius: 50%;
-    background: #ff00ee;
+    background: #0c0c0c;
 }
 .content .year{
     font-size: 1.5rem;
-    color: #ff00ee;
+    color: #ede9e9;
 }
 .content .year i{
-    color: #ff00ee;
+    color: #f2ecec;
     font-size: 1.5rem;
     margin-left: .5rem;
 }
@@ -571,7 +577,7 @@ section.start-animation .skill-box2{
 }
 
 .bar-side{
-    background: #111;
+    background: #170303;
     height: 1rem;
     border-radius: 50rem;
     position: relative;
@@ -580,7 +586,7 @@ section.start-animation .skill-box2{
 .bar{
     position: absolute;
     height: 100%;
-    background: #ff00ee;
+    background: #e7e2e2;
 }
 .bar-1{
     width: 90%;
@@ -682,20 +688,19 @@ footer {
     width: 100%;
     height: 70px;
     justify-content: space-between;
+
   }
 footer p{
     color: #cf1ab7;
     font-size: 19px;
     font-family: cursive;
-    margin-left: 20px;
+    margin-left: 200px;
     font-weight: bold;
 }
 footer i{
     font-size: 60px;
     color: aqua;
     margin-bottom: 8px;
-
-
 }
 
 /* RESPONSIVE */
@@ -713,9 +718,6 @@ footer i{
     }
     .contact{
         min-height: auto;
-    }
-    footer{
-        padding: 2rem 3%;
     }
 }
 @media(max-width:768px){
@@ -806,9 +808,9 @@ section.start-animation .title{
 .project img{
     height: 25rem;
     width: 25rem;
-    background: rgba(255,255,255,.1);
+    background: rgba(15, 1, 1, 0.903);
     border: .2rem solid rgba(255,255,255,.3);
-    filter: drop-shadow(0 0 8rem #ff00ee);
+    filter: drop-shadow(0 0 8rem #0d0d0d);
     scale: 0;
     border-radius: 20px;
 }
@@ -826,9 +828,9 @@ section.start-animation .projectimg{
 .project img{
     height: 25rem;
     width: 25rem;
-    background: rgba(255,255,255,.1);
+    background: rgba(17, 17, 17, 0.1);
     border: .2rem solid rgba(255,255,255,.3);
-    filter: drop-shadow(0 0 8rem #ff00ee);
+    /* filter: drop-shadow(0 0 8rem #ff00ee); */
     scale: 0;
     border-radius: 20px;
 }
